@@ -1,0 +1,49 @@
+body {
+  background-color: #212528;
+  color: #bcbcc1;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.task-card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  background-color: #2b2f33;
+  height: 20rem;
+  width: 18rem;
+  border-radius: 10px;
+}
+h2,
+h5 {
+  margin: 1rem auto;
+}
+.task-card-buttons {
+  text-align: center;
+}
+.progress {
+  margin: auto 10px;
+}
+.progress-bar {
+  background-color: #fdbc2c;
+}
+
+.top-navbar {
+  background-color: #92190E;
+  text-align: left;
+  
+}
+.navbar>.container{
+  justify-content: left;
+  font-size: 1.5rem;
+}
+.hamburger-icon{
+  font-size: 2rem;
+  cursor: pointer;
+}
+.hamburger-icon:hover{
+  font-size: 2.1rem;
+  cursor: pointer;
+}
