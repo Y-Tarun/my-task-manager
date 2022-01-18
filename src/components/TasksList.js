@@ -28,7 +28,7 @@ return (
         <div>         
             {console.log(tasks)}
            {tasks.map(task=>
-            <TaskCard key={task.id} name={task.name} progress={task.progress} dueDate={task.dueDate}/>            
+            <TaskCard key={task.id} name={task.name} progress={task.progress} dueDate={task.dueDate} duration={task.taskDuration} status={task.status}/>            
             )}
         </div>
     )

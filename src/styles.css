@@ -1,6 +1,7 @@
 body {
   background-color: #212528;
-  color: #bcbcc1;
+  /* color: #bcbcc1; */
+  color: #e9ecef;
 }
 
 .App {
@@ -16,11 +17,15 @@ body {
   width: 18rem;
   border-radius: 10px;
   display:inline-block;
-  
+  transform: scale(0.9);  
+  border: 0.0625rem solid #2b2f33
 }
-h2,
-h5 {
-  margin: 1rem auto;
+.task-card:hover {
+ 
+  border: 0.0625rem solid #bcbcc1
+}
+.margin-1-rem{
+  margin: 1rem 0;
 }
 .task-card-buttons {
   display: flex;
@@ -29,32 +34,56 @@ h5 {
 
 }
 .progress {
-  margin: auto 10px;
+  margin: 1rem 0;
 }
+
 .progress-bar {
   background-color: #fdbc2c;
 }
 
-.top-navbar {
-  background-color: #92190E;
-  text-align: left;
+.top-navbar {  
+  border-radius: 0.0625rem;
+  border-bottom: 0.0625rem solid #bcbcc13d;
+  margin: 0.3125rem -1.5rem 1rem;
+  
+  /* text-align: left; */
+  
+  top: 0;
   
 }
 .navbar>.container{
   justify-content: left;
   font-size: 1.5rem;
+  color: white;
 }
 .hamburger-icon{
+  color: white;
   font-size: 2rem;
   cursor: pointer;
 }
 .hamburger-icon:hover{
-  font-size: 2.1rem;
+  transform: scale(1.1);
   cursor: pointer;
 }
 .line{
-  border-radius: 0.125rem;
+  /* border-radius: 0.125rem;
   border-top: 0.125rem solid #bcbcc1;
-  margin: 0.3125rem auto 1rem;
-
+  margin: 0.3125rem auto 1rem; */
+  border-radius: 0.0625rem;
+  border-top: 0.0625rem solid #bcbcc1;
+  margin: 0.3125rem -1.5rem 1rem;
 }
+.faded{
+  
+  opacity: 0.1;
+}
+
+
+
+
+
+
+
+
+
+

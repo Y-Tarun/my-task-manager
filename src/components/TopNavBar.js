@@ -14,6 +14,7 @@ function TopNavBar() {
       <Nav.Link href="#pricing">Pricing</Nav.Link>
     </Nav> */}
     </Container>
+    
   </Navbar>
         
     )
